@@ -1,1 +1,5 @@
 this is a line to init the test-repo
+
+try push from http, no sucess, http push is not recommended. 
+
+instead push from ssh 
