@@ -4,3 +4,5 @@ try to push from lewin
 try push from http, no sucess, http push is not recommended. 
 
 instead push from ssh 
+Fri, Dec 11, 2015  2:25:15 PM
+use the combined command { date; echo "work, work, work"; } to record the work flow
