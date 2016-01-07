@@ -1,1 +1,1 @@
-this is a test for github on windows
+this is a test for both github and neurosim
