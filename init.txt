@@ -12,3 +12,5 @@ now temp branch and master are merged
 
 Wed, Jan 06, 2016 10:36:21 PM
 涓枃娴嬭瘯
+Sat, Jan 09, 2016 10:58:06 PM
+中文国家标准gb18030
