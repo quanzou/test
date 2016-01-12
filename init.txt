@@ -14,9 +14,15 @@ Wed, Jan 06, 2016 10:36:21 PM
 涓枃娴嬭瘯
 
 Sat, Jan 09, 2016 10:58:06 PM
+<<<<<<< HEAD
 中文国家标准gb18030
 
 Mon, Feb 08, 2016  4:16:58 PM
 git pull --rebase
 
+=======
+中文国家标准gb18030Tue, Jan 12, 2016  3:33:27 PM
+push behiend vpn
+>>>>>>> push behiend vpn, ssh could not read from remote repo
 
+this is the conflict after rebase
