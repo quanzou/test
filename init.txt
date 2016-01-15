@@ -23,6 +23,32 @@ git pull --rebase
 =======
 中文国家标准gb18030Tue, Jan 12, 2016  3:33:27 PM
 push behiend vpn
+<<<<<<< HEAD
 >>>>>>> push behiend vpn, ssh could not read from remote repo
 
-this is the conflict after rebase
+this is the conflict after rebase 1/2)
+=======
+
+Fri, Jan 15, 2016  2:50:06 PM
+write good commit message
+
+DO:
+Write the summary line and description of what you have done in the 
+imperative mode, that is as if you were commanding someone. Start 
+the line with "Fix", "Add", "Change" instead of "Fixed", "Added", 
+"Changed".
+
+Always leave the second line blank.
+
+Line break the commit message (to make the commit message readable 
+without having to scroll horizontally
+
+"git add -p" (or -i) to split up changes into logical commits. 
+>>>>>>> learn to write a better commit message
+
+this is the conflict after rebase 2/2)
+
+
+
+
+
