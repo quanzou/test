@@ -14,24 +14,26 @@ Wed, Jan 06, 2016 10:36:21 PM
 涓枃娴嬭瘯
 
 Sat, Jan 09, 2016 10:58:06 PM
-<<<<<<< HEAD
 中文国家标准gb18030
 
-Mon, Feb 08, 2016  4:16:58 PM
-git pull --rebase
-
-=======
-中文国家标准gb18030Tue, Jan 12, 2016  3:33:27 PM
+Tue, Jan 12, 2016  3:33:27 PM
 push behiend vpn
-<<<<<<< HEAD
->>>>>>> push behiend vpn, ssh could not read from remote repo
-
-this is the conflict after rebase 1/2)
-=======
 
 Fri, Jan 15, 2016  2:50:06 PM
 write good commit message
 
+Mon, Feb 08, 2016  4:16:58 PM
+git pull --rebase
+
+
+git rebase
+this is the conflict after rebase 1/2)
+this is the conflict after rebase 2/2)
+
+no date
+push behiend vpn, ssh could not read from remote repo
+
+better git commit msg
 DO:
 Write the summary line and description of what you have done in the 
 imperative mode, that is as if you were commanding someone. Start 
@@ -44,11 +46,11 @@ Line break the commit message (to make the commit message readable
 without having to scroll horizontally
 
 "git add -p" (or -i) to split up changes into logical commits. 
->>>>>>> learn to write a better commit message
-
-this is the conflict after rebase 2/2)
 
 
 
 
 
+
+Thu, Feb 18, 2016  2:37:35 PM
+git stach test
