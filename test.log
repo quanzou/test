@@ -48,9 +48,9 @@ without having to scroll horizontally
 "git add -p" (or -i) to split up changes into logical commits. 
 
 
-
-
-
-
 Thu, Feb 18, 2016  2:37:35 PM
 git stach test
+
+Tue Feb 23 21:18:14 EST 2016
+re-test on git stash again
+
