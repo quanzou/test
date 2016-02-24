@@ -1,0 +1,20 @@
+this is a line to init the test
+
+try to push from lewin
+try push from http, no sucess, http push is disabled. 
+
+instead push from ssh 
+
+Fri, Dec 11, 2015  2:25:15 PM
+use the combined command { date; echo "work, work, work"; } to record the work flow
+
+now temp branch and master are merged
+
+Wed, Jan 06, 2016 10:36:21 PM
+涓枃娴嬭瘯
+Sat, Jan 09, 2016 10:58:06 PM
+中文国家标准gb18030
+
+Tue Feb 23 21:18:14 EST 2016
+re-test on git stash again
+
