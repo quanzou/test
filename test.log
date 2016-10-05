@@ -10,9 +10,6 @@ use the combined command { date; echo "work, work, work"; } to record the work f
 
 now temp branch and master are merged
 
-Wed, Jan 06, 2016 10:36:21 PM
-涓枃娴嬭瘯
-
 Sat, Jan 09, 2016 10:58:06 PM
 中文国家标准gb18030
 
@@ -46,6 +43,12 @@ Line break the commit message (to make the commit message readable
 without having to scroll horizontally
 
 "git add -p" (or -i) to split up changes into logical commits. 
+
+Thu, Feb 18, 2016  2:37:35 PM
+git stach test
+
+Tue Feb 23 21:18:14 EST 2016
+re-test on git stash again
 
 Thu, Feb 18, 2016  2:37:35 PM
 git stach test
