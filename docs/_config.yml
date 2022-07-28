@@ -23,13 +23,17 @@ email: abc@.com
 description: >- # this means to ignore newlines until "baseurl:"
   edit this file in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-baseurl: "/testgithub/" # the subpath of your site, e.g. /blog
+baseurl: "/testgithub" # the subpath of your site, e.g. /blog
 url: "quanzou.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: testuser
 github_username:  testname
 
 # Build settings
-theme: minima
+#theme: minima
+theme: jekyll-theme-basically-basic
+
+remote_theme: "mmistakes/jekyll-theme-basically-basic@1.4.5"
+
 plugins:
   - jekyll-feed
 
