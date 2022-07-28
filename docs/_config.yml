@@ -29,9 +29,11 @@ twitter_username: testuser
 github_username:  testname
 
 # Build settings
+# theme: entries are needed for ruby gem install
 #theme: minima
-theme: jekyll-theme-basically-basic
+#theme: jekyll-theme-basically-basic
 
+# remote_theme: entries are for GitHub-Pages build
 remote_theme: "mmistakes/jekyll-theme-basically-basic@1.4.5"
 
 plugins:
