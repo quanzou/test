@@ -1,8 +1,17 @@
 ---
 layout: post
 title:  "Welcome to Jekyll!"
+categories:
+  - Markup
+  - jekyll update
+tags:
+  - html
+  - Jekyll
+  - layout
+  - link
+  - markup
+  - Tags
 date:   2022-07-27 14:34:05 -0400
-categories: jekyll update
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 

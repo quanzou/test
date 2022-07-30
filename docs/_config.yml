@@ -17,18 +17,30 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-
 title: test github-pages
-email: abc@.com
+email: johndoe@abc.com
 description: >- # this means to ignore newlines until "baseurl:"
-  edit this file in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  test github. 
 baseurl: "/testgithub" # the subpath of your site, e.g. /blog
 url: "quanzou.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: testuser
-github_username:  testname
+twitter_username: testgithub
+github_username:  testgithub
 
+search: true
+search_full_content: true
+search_provider: algolia
+algolia:
+  application_id: 18CU70D2P0
+  index_name: testblog
+  search_only_api_key: f92047907b02e91bf28a11116466b55d
+  powered_by: # true (default), false
+
+# Liquid
+liquid:
+  error_mode: strict 
+ 
 # Build settings
+
 # theme: entries are needed for ruby gem install
 #theme: minima
 #theme: jekyll-theme-basically-basic
@@ -38,6 +50,19 @@ remote_theme: "mmistakes/jekyll-theme-basically-basic@1.4.5"
 
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-algolia
+  - jekyll-remote-theme
+
+# Jekyll Feed
+feed:
+  path: atom.xml
+
+# Pagination - https://jekyllrb.com/docs/pagination/
+paginate: 5
+paginate_path: /page:num/
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -58,3 +83,12 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+# Front Matter Defaults
+defaults:
+  # _posts
+  - scope:
+      path: "_posts"
+      type: posts
+    values:
+      layout: post
+      read_time: true
