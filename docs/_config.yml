@@ -40,7 +40,10 @@ liquid:
   error_mode: strict 
  
 # Build settings
-
+markdown: kramdown
+kramdown:
+  math_engine: katex
+  math_engine_opts: {}
 # theme: entries are needed for ruby gem install
 #theme: minima
 #theme: jekyll-theme-basically-basic
