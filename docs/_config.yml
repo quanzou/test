@@ -58,6 +58,7 @@ plugins:
   - jekyll-paginate
   - jekyll-algolia
   - jekyll-remote-theme
+  - jekyll-toc
 
 # Jekyll Feed
 feed:
@@ -87,6 +88,19 @@ paginate_path: /page:num/
 #   - vendor/gems/
 #   - vendor/ruby/
 # Front Matter Defaults
+
+# configure toc 
+toc:
+  min_level: 1
+  max_level: 6
+  ordered_list: false
+  no_toc_section_class: no_toc_section
+  list_id: toc
+  list_class: section-nav
+  sublist_class: ''
+  item_class: toc-entry
+  item_prefix: toc-
+
 defaults:
   # _posts
   - scope:
@@ -95,3 +109,4 @@ defaults:
     values:
       layout: post
       read_time: true
+      toc: true
